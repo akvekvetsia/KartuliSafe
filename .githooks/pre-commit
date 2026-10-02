@@ -1,0 +1,3 @@
+#!/bin/sh
+# Installed by setup.sh (git config core.hooksPath .githooks). Blocks commits that would leak keys or sensitive material.
+exec python3 "$(git rev-parse --show-toplevel)/guard/check.py" --staged

@@ -1,0 +1,14 @@
+# Second safety net: the private folder is outside the repository anyway (see README).
+.venv/
+__pycache__/
+*.pyc
+.env
+keys.env
+*private*/
+*items_private*
+*review_SENSITIVE*
+*summary_sensitive*
+*tables_sensitive*
+sample_ka.csv
+sample_mapping.json
+.DS_Store
